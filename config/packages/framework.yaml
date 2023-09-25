@@ -18,6 +18,8 @@ framework:
     php_errors:
         log: true
 
+#    property_access: true
+
 when@test:
     framework:
         test: true
