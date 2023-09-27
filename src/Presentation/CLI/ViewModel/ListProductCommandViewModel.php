@@ -11,7 +11,7 @@ class ListProductCommandViewModel
 
     public function __construct(array $listProduct)
     {
-
+        $this->listProduct = $listProduct;
     }
 
 

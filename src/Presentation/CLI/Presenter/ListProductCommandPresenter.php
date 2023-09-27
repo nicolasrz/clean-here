@@ -12,6 +12,11 @@ class ListProductCommandPresenter implements ListProductPresenter
 {
     private ListProductCommandViewModel $commandViewModel;
 
+    public function __construct(ListProductCommandViewModel $commandViewModel)
+    {
+        $this->commandViewModel = $commandViewModel;
+    }
+
     public function present(ListProductResponse $response): void
     {
 
